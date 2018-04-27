@@ -7,12 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12A1FC8208870F6001BC8E7 /* ViperForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FC7208870F6001BC8E7 /* ViperForecast.swift */; };
+		F12A1FCB2088AD92001BC8E7 /* DetailsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FCA2088AD92001BC8E7 /* DetailsModule.swift */; };
+		F12A1FCD2088B15B001BC8E7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FCC2088B15B001BC8E7 /* DetailsViewController.swift */; };
+		F12A1FCF2088B203001BC8E7 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FCE2088B203001BC8E7 /* DetailsPresenter.swift */; };
+		F12A1FD12088B2C3001BC8E7 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FD02088B2C3001BC8E7 /* DetailsInteractor.swift */; };
+		F12A1FD32088B3D1001BC8E7 /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12A1FD22088B3D1001BC8E7 /* Details.storyboard */; };
+		F12A1FDB2089F981001BC8E7 /* AlmanacModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FD52089F981001BC8E7 /* AlmanacModule.swift */; };
+		F12A1FDC2089F981001BC8E7 /* AlmanacInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FD62089F981001BC8E7 /* AlmanacInteractor.swift */; };
+		F12A1FDD2089F981001BC8E7 /* Almanac.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12A1FD72089F981001BC8E7 /* Almanac.storyboard */; };
+		F12A1FDE2089F981001BC8E7 /* AlmanacPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FD82089F981001BC8E7 /* AlmanacPresenter.swift */; };
+		F12A1FDF2089F981001BC8E7 /* AlmanacRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FD92089F981001BC8E7 /* AlmanacRouter.swift */; };
+		F12A1FE02089F981001BC8E7 /* AlmanacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A1FDA2089F981001BC8E7 /* AlmanacViewController.swift */; };
+		F15A34FB2084A80A00C33512 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A34FA2084A80A00C33512 /* DetailsRouter.swift */; };
 		F184999A2083F9010098822C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18499992083F9010098822C /* AppDelegate.swift */; };
-		F184999C2083F9010098822C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184999B2083F9010098822C /* ViewController.swift */; };
-		F184999F2083F9010098822C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F184999D2083F9010098822C /* Main.storyboard */; };
 		F18499A12083F9020098822C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18499A02083F9020098822C /* Assets.xcassets */; };
 		F18499A42083F9020098822C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18499A22083F9020098822C /* LaunchScreen.storyboard */; };
 		F18499AF2083F9020098822C /* ViperWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18499AE2083F9020098822C /* ViperWeatherTests.swift */; };
+		F18499BB2083F9360098822C /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18499BA2083F9360098822C /* ForecastViewController.swift */; };
+		F18499BD2083F9990098822C /* DarkSkyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18499BC2083F9990098822C /* DarkSkyForecast.swift */; };
+		F18499BF2083FAA70098822C /* ForecastPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18499BE2083FAA70098822C /* ForecastPresenter.swift */; };
+		F18499C12083FBAA0098822C /* ForecastInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18499C02083FBAA0098822C /* ForecastInteractor.swift */; };
+		F18499C4208404120098822C /* ForecastRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18499C3208404120098822C /* ForecastRouter.swift */; };
+		F18499C8208496140098822C /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18499C7208496140098822C /* RootRouter.swift */; };
+		F185EB382086614F007FD8AD /* ForecastModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185EB372086614F007FD8AD /* ForecastModule.swift */; };
+		F185EB3B20872618007FD8AD /* DarkSkyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185EB3A20872618007FD8AD /* DarkSkyAPI.swift */; };
+		F185EB3D2087305F007FD8AD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185EB3C2087305F007FD8AD /* Location.swift */; };
+		F185EB3F2087569B007FD8AD /* DarkSkyDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185EB3E2087569A007FD8AD /* DarkSkyDataPoint.swift */; };
+		F185EB41208756A2007FD8AD /* DarkSkyDataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185EB40208756A2007FD8AD /* DarkSkyDataBlock.swift */; };
+		F185EB43208756AD007FD8AD /* DarkSkyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185EB42208756AD007FD8AD /* DarkSkyAlert.swift */; };
+		F185EB45208756B3007FD8AD /* DarkSkyFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185EB44208756B3007FD8AD /* DarkSkyFlags.swift */; };
+		F1FA082A208532AE008920F9 /* Forecast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FA0829208532AE008920F9 /* Forecast.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +51,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F12A1FC7208870F6001BC8E7 /* ViperForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperForecast.swift; sourceTree = "<group>"; };
+		F12A1FCA2088AD92001BC8E7 /* DetailsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModule.swift; sourceTree = "<group>"; };
+		F12A1FCC2088B15B001BC8E7 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F12A1FCE2088B203001BC8E7 /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		F12A1FD02088B2C3001BC8E7 /* DetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
+		F12A1FD22088B3D1001BC8E7 /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		F12A1FD52089F981001BC8E7 /* AlmanacModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmanacModule.swift; sourceTree = "<group>"; };
+		F12A1FD62089F981001BC8E7 /* AlmanacInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmanacInteractor.swift; sourceTree = "<group>"; };
+		F12A1FD72089F981001BC8E7 /* Almanac.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Almanac.storyboard; sourceTree = "<group>"; };
+		F12A1FD82089F981001BC8E7 /* AlmanacPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmanacPresenter.swift; sourceTree = "<group>"; };
+		F12A1FD92089F981001BC8E7 /* AlmanacRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmanacRouter.swift; sourceTree = "<group>"; };
+		F12A1FDA2089F981001BC8E7 /* AlmanacViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmanacViewController.swift; sourceTree = "<group>"; };
+		F15A34FA2084A80A00C33512 /* DetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
 		F18499962083F9010098822C /* ViperWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18499992083F9010098822C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F184999B2083F9010098822C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F184999E2083F9010098822C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F18499A02083F9020098822C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18499A32083F9020098822C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F18499A52083F9020098822C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18499AA2083F9020098822C /* ViperWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18499AE2083F9020098822C /* ViperWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperWeatherTests.swift; sourceTree = "<group>"; };
 		F18499B02083F9020098822C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18499BA2083F9360098822C /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		F18499BC2083F9990098822C /* DarkSkyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyForecast.swift; sourceTree = "<group>"; };
+		F18499BE2083FAA70098822C /* ForecastPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastPresenter.swift; sourceTree = "<group>"; };
+		F18499C02083FBAA0098822C /* ForecastInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastInteractor.swift; sourceTree = "<group>"; };
+		F18499C3208404120098822C /* ForecastRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastRouter.swift; sourceTree = "<group>"; };
+		F18499C7208496140098822C /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		F185EB372086614F007FD8AD /* ForecastModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModule.swift; sourceTree = "<group>"; };
+		F185EB3A20872618007FD8AD /* DarkSkyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyAPI.swift; sourceTree = "<group>"; };
+		F185EB3C2087305F007FD8AD /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F185EB3E2087569A007FD8AD /* DarkSkyDataPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyDataPoint.swift; sourceTree = "<group>"; };
+		F185EB40208756A2007FD8AD /* DarkSkyDataBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyDataBlock.swift; sourceTree = "<group>"; };
+		F185EB42208756AD007FD8AD /* DarkSkyAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyAlert.swift; sourceTree = "<group>"; };
+		F185EB44208756B3007FD8AD /* DarkSkyFlags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyFlags.swift; sourceTree = "<group>"; };
+		F1FA0829208532AE008920F9 /* Forecast.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Forecast.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F12A1FC920887106001BC8E7 /* DarkSky */ = {
+			isa = PBXGroup;
+			children = (
+				F185EB3A20872618007FD8AD /* DarkSkyAPI.swift */,
+				F18499BC2083F9990098822C /* DarkSkyForecast.swift */,
+				F185EB3E2087569A007FD8AD /* DarkSkyDataPoint.swift */,
+				F185EB40208756A2007FD8AD /* DarkSkyDataBlock.swift */,
+				F185EB42208756AD007FD8AD /* DarkSkyAlert.swift */,
+				F185EB44208756B3007FD8AD /* DarkSkyFlags.swift */,
+			);
+			path = DarkSky;
+			sourceTree = "<group>";
+		};
+		F12A1FD42089F8EF001BC8E7 /* Almanac Module */ = {
+			isa = PBXGroup;
+			children = (
+				F12A1FD52089F981001BC8E7 /* AlmanacModule.swift */,
+				F12A1FD92089F981001BC8E7 /* AlmanacRouter.swift */,
+				F12A1FD62089F981001BC8E7 /* AlmanacInteractor.swift */,
+				F12A1FD82089F981001BC8E7 /* AlmanacPresenter.swift */,
+				F12A1FDA2089F981001BC8E7 /* AlmanacViewController.swift */,
+				F12A1FD72089F981001BC8E7 /* Almanac.storyboard */,
+			);
+			path = "Almanac Module";
+			sourceTree = "<group>";
+		};
+		F15A34F92084A7F100C33512 /* Details Module */ = {
+			isa = PBXGroup;
+			children = (
+				F12A1FCA2088AD92001BC8E7 /* DetailsModule.swift */,
+				F15A34FA2084A80A00C33512 /* DetailsRouter.swift */,
+				F12A1FD02088B2C3001BC8E7 /* DetailsInteractor.swift */,
+				F12A1FCE2088B203001BC8E7 /* DetailsPresenter.swift */,
+				F12A1FCC2088B15B001BC8E7 /* DetailsViewController.swift */,
+				F12A1FD22088B3D1001BC8E7 /* Details.storyboard */,
+			);
+			path = "Details Module";
+			sourceTree = "<group>";
+		};
 		F184998D2083F9000098822C = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +167,12 @@
 			isa = PBXGroup;
 			children = (
 				F18499992083F9010098822C /* AppDelegate.swift */,
-				F184999B2083F9010098822C /* ViewController.swift */,
-				F184999D2083F9010098822C /* Main.storyboard */,
+				F18499C6208495D00098822C /* Root */,
+				F12A1FD42089F8EF001BC8E7 /* Almanac Module */,
+				F15A34F92084A7F100C33512 /* Details Module */,
+				F18499B92083F90F0098822C /* Forecast Module */,
+				F18499C5208494010098822C /* Entities */,
+				F185EB39208725EE007FD8AD /* Network APIs */,
 				F18499A02083F9020098822C /* Assets.xcassets */,
 				F18499A22083F9020098822C /* LaunchScreen.storyboard */,
 				F18499A52083F9020098822C /* Info.plist */,
@@ -96,6 +189,44 @@
 			path = ViperWeatherTests;
 			sourceTree = "<group>";
 		};
+		F18499B92083F90F0098822C /* Forecast Module */ = {
+			isa = PBXGroup;
+			children = (
+				F185EB372086614F007FD8AD /* ForecastModule.swift */,
+				F18499C3208404120098822C /* ForecastRouter.swift */,
+				F18499C02083FBAA0098822C /* ForecastInteractor.swift */,
+				F18499BE2083FAA70098822C /* ForecastPresenter.swift */,
+				F18499BA2083F9360098822C /* ForecastViewController.swift */,
+				F1FA0829208532AE008920F9 /* Forecast.storyboard */,
+			);
+			path = "Forecast Module";
+			sourceTree = "<group>";
+		};
+		F18499C5208494010098822C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F185EB3C2087305F007FD8AD /* Location.swift */,
+				F12A1FC7208870F6001BC8E7 /* ViperForecast.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F18499C6208495D00098822C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F18499C7208496140098822C /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F185EB39208725EE007FD8AD /* Network APIs */ = {
+			isa = PBXGroup;
+			children = (
+				F12A1FC920887106001BC8E7 /* DarkSky */,
+			);
+			path = "Network APIs";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +237,7 @@
 				F18499922083F9010098822C /* Sources */,
 				F18499932083F9010098822C /* Frameworks */,
 				F18499942083F9010098822C /* Resources */,
+				F18499C22083FF8E0098822C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -178,8 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F18499A42083F9020098822C /* LaunchScreen.storyboard in Resources */,
+				F1FA082A208532AE008920F9 /* Forecast.storyboard in Resources */,
 				F18499A12083F9020098822C /* Assets.xcassets in Resources */,
-				F184999F2083F9010098822C /* Main.storyboard in Resources */,
+				F12A1FDD2089F981001BC8E7 /* Almanac.storyboard in Resources */,
+				F12A1FD32088B3D1001BC8E7 /* Details.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +326,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F18499C22083FF8E0098822C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F18499922083F9010098822C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F184999C2083F9010098822C /* ViewController.swift in Sources */,
+				F12A1FCB2088AD92001BC8E7 /* DetailsModule.swift in Sources */,
+				F12A1FD12088B2C3001BC8E7 /* DetailsInteractor.swift in Sources */,
+				F185EB41208756A2007FD8AD /* DarkSkyDataBlock.swift in Sources */,
+				F18499C8208496140098822C /* RootRouter.swift in Sources */,
+				F12A1FDF2089F981001BC8E7 /* AlmanacRouter.swift in Sources */,
+				F18499BF2083FAA70098822C /* ForecastPresenter.swift in Sources */,
+				F18499BD2083F9990098822C /* DarkSkyForecast.swift in Sources */,
+				F12A1FE02089F981001BC8E7 /* AlmanacViewController.swift in Sources */,
+				F12A1FDB2089F981001BC8E7 /* AlmanacModule.swift in Sources */,
+				F18499BB2083F9360098822C /* ForecastViewController.swift in Sources */,
+				F12A1FCF2088B203001BC8E7 /* DetailsPresenter.swift in Sources */,
+				F185EB3D2087305F007FD8AD /* Location.swift in Sources */,
+				F185EB45208756B3007FD8AD /* DarkSkyFlags.swift in Sources */,
+				F185EB43208756AD007FD8AD /* DarkSkyAlert.swift in Sources */,
+				F12A1FDE2089F981001BC8E7 /* AlmanacPresenter.swift in Sources */,
+				F185EB3F2087569B007FD8AD /* DarkSkyDataPoint.swift in Sources */,
+				F18499C4208404120098822C /* ForecastRouter.swift in Sources */,
+				F185EB382086614F007FD8AD /* ForecastModule.swift in Sources */,
+				F12A1FCD2088B15B001BC8E7 /* DetailsViewController.swift in Sources */,
 				F184999A2083F9010098822C /* AppDelegate.swift in Sources */,
+				F185EB3B20872618007FD8AD /* DarkSkyAPI.swift in Sources */,
+				F12A1FDC2089F981001BC8E7 /* AlmanacInteractor.swift in Sources */,
+				F12A1FC8208870F6001BC8E7 /* ViperForecast.swift in Sources */,
+				F15A34FB2084A80A00C33512 /* DetailsRouter.swift in Sources */,
+				F18499C12083FBAA0098822C /* ForecastInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +394,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F184999D2083F9010098822C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F184999E2083F9010098822C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F18499A22083F9020098822C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
